@@ -308,8 +308,12 @@
 					"tags": "4092-"
 				},
 				{
-					"sublime_text": ">=4149",
+					"sublime_text": "4149 - 4173",
 					"tags": "4149-"
+				},
+				{
+					"sublime_text": ">=4174",
+					"tags": "4174-"
 				}
 			]
 		},
@@ -533,6 +537,17 @@
 		{
 			"name": "Telerik AppBuilder",
 			"details": "https://github.com/Icenium/appbuilder-sublime-package",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Templ (go)",
+			"details": "https://github.com/papierkorp/sublime-templ",
+			"labels": ["templ", "golang", "go"],
 			"releases": [
 				{
 					"sublime_text": "*",
@@ -831,6 +846,16 @@
 			]
 		},
 		{
+			"name": "TestExplorer",
+			"details": "https://github.com/IPWright83/sublime-TestExplorer",
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "TestExUnit",
 			"details": "https://github.com/Dania02525/TestExUnit",
 			"author": "Dania02525 (Dania Simmons)",
@@ -967,6 +992,17 @@
 				{
 					"sublime_text": "*",
 					"platforms": "windows",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "TextTree",
+			"details": "https://github.com/gbif/text-tree-sublime",
+			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": "*",
 					"tags": true
 				}
 			]
@@ -2071,11 +2107,15 @@
 		{
 			"name": "Theme - Spacegray",
 			"details": "https://github.com/SublimeText/Spacegray",
-			"labels": ["theme"],
+			"labels": ["theme", "color scheme"],
 			"releases": [
 				{
-					"sublime_text": "*",
+					"sublime_text": ">=4000",
 					"tags": true
+				},
+				{
+					"sublime_text": "<4000",
+					"tags": "st3-"
 				}
 			]
 		},
@@ -2756,6 +2796,17 @@
 			]
 		},
 		{
+			"name": "Toggle Sidebar and Reveal Current File",
+			"details": "https://github.com/stuartelimu/toggle-sidebar-and-reveal-file",
+			"labels": ["sidebar", "toggle"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
 			"name": "Toggle Sidebar Focus",
 			"details": "https://github.com/educbraga/ToggleSidebarFocus",
 			"releases": [
@@ -2864,6 +2915,29 @@
 			"details": "https://github.com/snxx-lppxx/toit.tmbundle",
 			"author": "snxx",
 			"labels": ["language syntax"],
+			"releases": [
+				{
+					"sublime_text": ">=4000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Token Generator",
+			"details": "https://github.com/pxninja/token-generator",
+			"labels": ["random", "token", "string", "generator", "css"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "TokensCounter",
+			"details": "https://github.com/yaroslavyaroslav/SublimeTokenCounter",
+			"donate": "https://github.com/sponsors/yaroslavyaroslav",
+			"labels": ["nlp", "tokens", "llm", "openai"],
 			"releases": [
 				{
 					"sublime_text": ">=4000",
@@ -3275,7 +3349,7 @@
 			"releases": [
 				{
 					"sublime_text": "*",
-					"platforms": "windows",
+					"platforms": ["windows", "linux"],
 					"tags": true
 				}
 			]
@@ -3574,6 +3648,7 @@
 			"name": "Twig",
 			"details": "https://github.com/Sublime-Instincts/BetterTwig",
 			"labels": ["Twig", "templates", "PHP", "syntax"],
+			"previous_names": ["PHP-Twig"],
 			"releases": [
 				{
 					"base": "https://github.com/purplefish32/sublime-text-2-twig",
@@ -3589,7 +3664,11 @@
 					"tags": "4107-"
 				},
 				{
-					"sublime_text": ">=4142",
+					"sublime_text": "4142 - 4149",
+					"tags": "4142-"
+				},
+				{
+					"sublime_text": ">=4152",
 					"tags": true
 				}
 			]

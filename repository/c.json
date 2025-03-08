@@ -742,17 +742,6 @@
 			]
 		},
 		{
-			"name": "Charcoal",
-			"details": "https://github.com/Dnld/charcoal-color-scheme",
-			"labels": ["color scheme"],
-			"releases": [
-				{
-					"sublime_text": "*",
-					"tags": true
-				}
-			]
-		},
-		{
 			"name": "Charmci",
 			"details": "https://github.com/matthiasdiener/Charmci-Sublime-Syntax",
 			"description" : "Syntax highlighting for Charm++ .ci files",
@@ -1339,6 +1328,17 @@
 			"releases": [
 				{
 					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Claudette",
+			"details": "https://github.com/barryceelen/Claudette",
+			"labels": ["ai", "claude"],
+			"releases": [
+				{
+					"sublime_text": ">=4075",
 					"tags": true
 				}
 			]
@@ -2236,6 +2236,17 @@
 			"releases": [
 				{
 					"sublime_text": ">=3000",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "Codemp",
+			"details": "https://github.com/hexedtech/codemp-sublime",
+			"labels": ["collaborative", "crdt", "editing"],
+			"releases": [
+				{
+					"sublime_text": ">=4000",
 					"tags": true
 				}
 			]
@@ -4402,6 +4413,17 @@
 			"name": "CSS Grid Snippets",
 			"details": "https://github.com/antenando/css-grid-sublime-snippets",
 			"labels": ["css", "snippets"],
+			"releases": [
+				{
+					"sublime_text": "*",
+					"tags": true
+				}
+			]
+		},
+		{
+			"name": "CSS Intellisense",
+			"details": "https://github.com/id-sakurata/CSS-Intellisense",
+			"labels": ["css", "snippets", "auto-complete"],
 			"releases": [
 				{
 					"sublime_text": "*",
